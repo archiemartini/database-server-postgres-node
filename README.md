@@ -1,5 +1,13 @@
 # Database server tech test
 
+## Completion Overview
+
+To complete this techtest I created a server using Node.js and Express.js. The server has two routes '/set' and '/get' and upon requests to each reads the request.query and either saves ('/set') the data to a locally declared variable (let keyValueData) or returns ('/get') said variable
+
+
+The original brief can be seen below...
+
+
 Today we will practice a tech test to demonstrate your understanding of web technologies. This is an actual tech test that was given to one of our coaches when they applied for a dev role.
 
 Bear in mind that most tech tests do not have a set timeframe. Although we do have a "soft" time limit, imposed mainly by the structure of the week, we are not expecting you to finish within the day - so take your time and focus on writing the best code you can produce.
