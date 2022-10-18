@@ -4,7 +4,7 @@
 To complete this techtest I created a server using Node.js and Express.js. The server has two routes '/set' and '/get' and upon requests to each reads the request.query and either saves ('/set') the data to a locally declared variable (let keyValueData) or returns ('/get') said variable.
 
 UPDATED:
-Adding a database, I decided to go with PostGreSQL
+Adding a database, I decided to go with PostGreSQL. I added a migration file that would create a PostGresQL database called `database-server-test` and populate it with a table called `keyvaluepairs`. I then simply replaced the methods I built out to compelte the initial task with a `queries.js` file. This contained query actions that complete the brief and return either table results or messages in JSON.
 
 
 The original brief can be seen below...
